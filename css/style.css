@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    background-image: url(./wolf.jpg);
+    background-position: center;
+    Background-size: cover;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 580px;
+    margin:0 auto;
+    
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    color: white;
+    
+    
+
+    
+}
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50% 50% 50% 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+   
+    
+
+
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+
+
+}
+
+.link {
+    color: white;
+    border-color: hotpink;
+    background-color:rgb(0, 92, 34);
+    text-align: center;
+    list-style-type:none;
+    text-decoration: none;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+
+}
+
+footer {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+    
+}
+
+.link-icone {
+        margin: 25px 25px 90px;
+        font-size: 1.5em;
+        color: white;
+    }
+
+  
